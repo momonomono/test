@@ -1,0 +1,12 @@
+.c-button{
+    &__form{
+        display:block;
+        width:100px;
+        height:30px;
+        margin:0 auto;
+        text-align: center;
+        background:$bg-gray;
+        color:white;
+        border-radius: 3px;
+    }
+}

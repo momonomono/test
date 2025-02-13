@@ -1,0 +1,13 @@
+@for $i from 1 to 10{
+    .u-mt-#{$i}{
+        margin-top : 10px * $i;
+    }
+
+    .u-mb-#{$i}{
+        margin-bottom : 10px * $i;
+    }
+
+    .u-pb-#{$i}{
+        padding-bottom : 10px * $i;
+    }
+}
