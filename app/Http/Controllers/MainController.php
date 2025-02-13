@@ -31,4 +31,9 @@ class MainController extends Controller
 
         return view('material');
     }
+
+    public function test(){
+
+        return view('test');
+    }
 }

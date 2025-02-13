@@ -18,3 +18,4 @@ use App\Http\Controllers\MainController;
 Route::get('/', [MainController::class,"top"] );
 Route::post('/',[MainController::class,'top_post']);
 Route::get('/material',[MainController::class,"material"]);
+Route::get('/test',[MainController::class,"test"]);
