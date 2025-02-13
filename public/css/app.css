@@ -422,6 +422,24 @@ th {
 .p-grid__header {
   background: #909090;
 }
+.p-grid__header--nav {
+  float: right;
+  margin-right: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.p-grid__header--container {
+  display: flex;
+}
+.p-grid__header--item {
+  height: 40px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
 
 .u-mt-1 {
   margin-top: 10px;

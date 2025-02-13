@@ -26,4 +26,9 @@ class MainController extends Controller
         DB::table('materials')->insert($data);
         return view("top");
     }
+
+    public function material(){
+
+        return view('material');
+    }
 }
